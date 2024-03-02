@@ -1,0 +1,72 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #084971;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    
+}
+li{
+    float: left;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.skills{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn{
+    position: absolute;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(47, 225, 237);
+}
+p{
+    margin: 3rem;
+}
+.skill{
+    margin: 3rem;
+}
+.profile{
+    margin: 5rem;
+}
+.contacts{
+    display: flex;
+    gap: 10px;
+    
+}
+.main-div{
+    margin: 4rem;
+    
+}
+
+.link{
+    margin-top: 20px;
+}
+.start{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+
+li a.active{
+    background-color: rgb(29, 230, 183);
+    border-radius: 5px;
+}
